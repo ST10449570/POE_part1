@@ -85,21 +85,7 @@ class Class1
     }
  
    
-   public boolean RegisterUser(String username, String password)
-   {
    
-   }
-   
-   public boolean LoginUser(String username, String password)
-   {
-     
-       
-   }
-   
-   public boolean ReturnLoginStatus()
-   {
-   
-   } 
 
     private boolean CheckPass(String password) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody

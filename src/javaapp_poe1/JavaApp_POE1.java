@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class JavaApp_POE1 
 {
 
-    public static void main(String[] args) 
+    public static void main(String[] args, boolean isLoggedIn) 
     {
      Scanner m = new Scanner(System.in);
        String firstname, lastname, username, password;      
@@ -81,7 +81,25 @@ public class JavaApp_POE1
                System.out.print("Username or password incorrect,please try again");
            }
            
+           String enteredUsername = "Mihle_Sindesi";
+           String enteredPassword = "Mihle*123";
+           boolean LoginUser = login(enteredUsername, enteredPassword);
+           if (isLoggedIn)
+           {
+               System.out.println("User logged in successfully!");
+           }
+           else
+           {
+               System.out.println("Username or password incorrect");
+           }
            
+    }
+
+    
+    
+    
+    private static boolean login(String enteredUsername, String enteredPassword) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
 }
